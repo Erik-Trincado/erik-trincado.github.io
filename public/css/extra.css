@@ -1,0 +1,30 @@
+/* ====== HOME: reduce espacio general ====== */
+.main {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* Reduce el espacio del bloque de bienvenida (HomeInfo) */
+.home-info {
+  margin: 0.6rem 0 0.8rem 0 !important;
+  padding: 0.8rem 1rem !important;
+}
+
+/* Reduce el margen entre título "Blog técnico" y el listado */
+.page-header, .profile {
+  margin-bottom: 0.8rem !important;
+}
+
+/* ====== LISTADO (cards): controla tamaño del cover ====== */
+.post-entry .entry-cover img,
+.entry-cover img {
+  width: 50% !important;
+  height: 220px !important;   /* <-- ajusta: 180, 200, 240 */
+  object-fit: cover !important;
+  display: block !important;
+}
+
+/* (Opcional) reduce el padding dentro de la card */
+.post-entry {
+  padding: 14px 16px !important;
+}

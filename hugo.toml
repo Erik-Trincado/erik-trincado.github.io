@@ -1,0 +1,68 @@
+baseURL = "http://localhost:1313/"
+languageCode = "es"
+title = "Erik Trincado – Blog Técnico"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+customCSS = ["css/extra.css"]
+
+[params.profileMode]
+enabled = true
+title = "RESÚMENES"
+
+subtitle = """
+<div class="hero-sub">
+Geociencias · modelación numérica · teledetección aplicada a minería.<br><br>
+
+<b>📄 Sobre este blog</b><br>
+En este sitio publico principalmente:
+<ul>
+  <li>Resúmenes técnicos de proyectos reales</li>
+  <li>PDFs completos con resultados y conclusiones</li>
+  <li>Figuras, mapas y visualizaciones clave</li>
+</ul>
+
+<i>El código interno y metodologías propietarias se reservan.</i><br><br>
+
+<b>Contacto:</b>
+<a href="mailto:erik.trincado@usach.cl">erik.trincado@usach.cl</a> ·
+<a href="https://www.linkedin.com/in/eriktrincado/" target="_blank" rel="noopener">LinkedIn: eriktrincado</a>
+</div>
+"""
+
+imageUrl = "/images/avatar.jpg"
+imageTitle = "Erik Trincado"
+imageWidth = 140
+imageHeight = 140
+
+[[params.profileMode.buttons]]
+name = "Publicaciones y Trabajos"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Sobre mí"
+url = "/about/"
+
+[[menu.main]]
+name = "Publicaciones y Trabajos"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "Sobre mí"
+url = "/about/"
+weight = 2
+
+
+
+
+
+
+
+

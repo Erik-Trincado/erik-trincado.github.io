@@ -1,0 +1,107 @@
+/* ====== CARD COVER: centrar y controlar tamaño ====== */
+.post-entry .entry-cover {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.post-entry .entry-cover img {
+  width: 60% !important;      /* prueba 50%–70% */
+  height: 150px !important;   /* ajusta a gusto */
+  object-fit: cover !important;
+  display: block !important;
+}
+
+/* ====== PaperMod: reducir el hueco entre HomeInfo y el listado ====== */
+
+/* Ajusta el bloque tipo "perfil/home" */
+.profile {
+  padding: 12px 0 !important;
+  margin: 0 !important;
+}
+
+/* Ajusta el encabezado + descripción del home */
+.profile .profile_inner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Reduce separación antes del listado de posts */
+.main .post-entry:first-of-type {
+  margin-top: 12px !important;   /* prueba 0, 6, 12 */
+}
+
+/* Reduce separación general entre cards */
+.post-entry {
+  margin: 14px 0 !important;     /* prueba 10–18 */
+}
+
+/* ====== CARD COVER: centrar y controlar tamaño ====== */
+.post-entry .entry-cover {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.post-entry .entry-cover img {
+  width: 60% !important;      /* prueba 50%–70% */
+  height: 150px !important;   /* ajusta a gusto */
+  object-fit: cover !important;
+  display: block !important;
+}
+
+/* ====== PaperMod: reducir el hueco entre HomeInfo y el listado ====== */
+
+/* Ajusta el bloque tipo "perfil/home" */
+.profile {
+  padding: 12px 0 !important;
+  margin: 0 !important;
+}
+
+/* Ajusta el encabezado + descripción del home */
+.profile .profile_inner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Reduce separación antes del listado de posts */
+.main .post-entry:first-of-type {
+  margin-top: 12px !important;   /* prueba 0, 6, 12 */
+}
+
+/* Reduce separación general entre cards */
+.post-entry {
+  margin: 14px 0 !important;     /* prueba 10–18 */
+}
+
+/* ===== Profile Mode: alinear texto largo a la izquierda ===== */
+
+/* Contenedor del subtítulo */
+.profile .profile_inner .profile_subtitle {
+  text-align: left !important;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Listas dentro del subtitle */
+.profile .profile_subtitle ul {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  padding-left: 1.2rem;
+}
+
+.profile .profile_subtitle li {
+  margin-bottom: 0.3rem;
+}
+
+/* Mantener título centrado */
+.profile .profile_inner h1 {
+  text-align: center;
+}
+
+.hero-sub { text-align: left; }
+
+
+
+
+
