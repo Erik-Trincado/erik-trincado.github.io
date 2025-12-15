@@ -16,6 +16,9 @@ customCSS = ["css/extra.css"]
 enabled = true
 title = "RESÚMENES"
 
+[params.profileMode]
+enabled = true
+title = "RESÚMENES"
 subtitle = """
 <div class="hero-sub">
 Geociencias · modelación numérica · teledetección aplicada a minería.<br><br>
@@ -27,14 +30,14 @@ En este sitio publico principalmente:
   <li>PDFs completos con resultados y conclusiones</li>
   <li>Figuras, mapas y visualizaciones clave</li>
 </ul>
-
 <i>El código interno y metodologías propietarias se reservan.</i><br><br>
 
 <b>Contacto:</b>
 <a href="mailto:erik.trincado@usach.cl">erik.trincado@usach.cl</a> ·
-<a href="https://www.linkedin.com/in/eriktrincado/" target="_blank" rel="noopener">LinkedIn: eriktrincado</a>
+<a href="https://www.linkedin.com/in/eriktrincado/" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 """
+
 
 imageUrl = "/images/avatar.jpg"
 imageTitle = "Erik Trincado"
