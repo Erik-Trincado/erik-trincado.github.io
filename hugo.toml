@@ -16,9 +16,6 @@ customCSS = ["css/extra.css"]
 enabled = true
 title = "RESÚMENES"
 
-[params.profileMode]
-enabled = true
-title = "RESÚMENES"
 subtitle = """
 <div class="hero-sub">
 Geociencias · modelación numérica · teledetección aplicada a minería.<br><br>
@@ -38,8 +35,7 @@ En este sitio publico principalmente:
 </div>
 """
 
-
-imageUrl = "/images/avatar.jpg"
+imageUrl = "/images/profile.jpg"
 imageTitle = "Erik Trincado"
 imageWidth = 140
 imageHeight = 140
@@ -53,7 +49,7 @@ name = "Sobre mí"
 url = "/about/"
 
 [[menu.main]]
-name = "Publicaciones y Trabajos"
+name = "Posts"
 url = "/posts/"
 weight = 1
 
